@@ -84,7 +84,7 @@ export default function HomePage() {
 
             <div className="mt-10 flex flex-col gap-4 sm:flex-row">
               <Link
-                href="/items"
+                href="/events"
                 className="inline-flex items-center justify-center gap-2 rounded-full bg-white px-6 py-3 text-sm font-bold text-slate-950 hover:bg-indigo-50"
               >
                 Explore Events
@@ -92,7 +92,7 @@ export default function HomePage() {
               </Link>
 
               <Link
-                href="/items/add"
+                href="/events/add"
                 className="inline-flex items-center justify-center rounded-full border border-white/20 px-6 py-3 text-sm font-bold text-white hover:bg-white/10"
               >
                 Add Event

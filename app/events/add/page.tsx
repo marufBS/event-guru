@@ -77,7 +77,7 @@ function AddItemForm() {
 
         toast.success("Event added successfully")
         setLoading(false)
-        router.push("/items/manage")
+        router.push("/events/manage")
 
     }
 
@@ -182,7 +182,7 @@ function AddItemForm() {
                 <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:justify-end">
                     <button
                         type="button"
-                        onClick={() => router.push("/items")}
+                        onClick={() => router.push("/events")}
                         className="rounded-full border border-slate-200 px-6 py-3 text-sm font-bold text-slate-700 hover:bg-slate-100"
                     >
                         Cancel

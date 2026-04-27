@@ -47,7 +47,7 @@ export default function EventCard({ event }: { event: EventItem }) {
         <div className="flex items-center justify-between border-t pt-4">
           <p className="font-bold text-slate-950">৳{event.price}</p>
           <Link
-            href={`/items/${event.id}`}
+            href={`/events/${event.id}`}
             className="rounded-full bg-slate-950 px-4 py-2 text-sm font-semibold text-white hover:bg-indigo-600 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
           >
             View Details

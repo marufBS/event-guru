@@ -19,8 +19,8 @@ const routes = [
     { label:"Home",href:"/"},
     { label:"Events",href:"/events"},
     { label:"About",href:"/about"},
-    // { label:"Add Item",href:"/items/add"},
-    // { label:"Manage",href:"/items/manage"},
+    // { label:"Add Item",href:"/events/add"},
+    // { label:"Manage",href:"/events/manage"},
 ]
 
 export default function Navbar(){
@@ -106,7 +106,7 @@ export default function Navbar(){
 
                   <div className="p-2">
                     <Link
-                      href="/items/add"
+                      href="/events/add"
                       onClick={() => setDropdownOpen(false)}
                       className="flex items-center gap-3 rounded-2xl px-4 py-3 text-sm font-semibold text-slate-700 hover:bg-slate-100"
                     >
@@ -114,7 +114,7 @@ export default function Navbar(){
                       Add Product
                     </Link>
                     <Link
-                      href="/items/manage"
+                      href="/events/manage"
                       onClick={() => setDropdownOpen(false)}
                       className="flex items-center gap-3 rounded-2xl px-4 py-3 text-sm font-semibold text-slate-700 hover:bg-slate-100"
                     >

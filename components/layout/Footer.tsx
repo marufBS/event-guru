@@ -28,7 +28,7 @@ export default function Footer() {
               Home
             </Link>
             <Link
-              href="/items"
+              href="/events"
               className="text-slate-600 hover:text-indigo-600"
             >
               Items
@@ -40,7 +40,7 @@ export default function Footer() {
               About
             </Link>
             {/* <Link
-              href="/items/add"
+              href="/events/add"
               className="text-slate-600 hover:text-indigo-600"
             >
               Add Item

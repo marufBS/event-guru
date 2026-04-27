@@ -31,7 +31,7 @@ export default function ItemDetailsPage() {
                         The event you are looking for may have been removed.
                     </p>
                     <Link
-                        href="/items"
+                        href="/events"
                         className="mt-6 inline-flex rounded-full bg-indigo-600 px-5 py-3 text-sm font-bold text-white hover:bg-indigo-700"
                     >
                         Back to Items
@@ -50,7 +50,7 @@ export default function ItemDetailsPage() {
         <section className="px-4 py-12 sm:px-6 lg:px-8">
             <div className="mx-auto max-w-7xl">
                 <Link
-                    href="/items"
+                    href="/events"
                     className="mb-8 inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white px-5 py-3 text-sm font-bold text-slate-700 hover:bg-slate-100"
                 >
                     <ArrowLeft size={18} />
