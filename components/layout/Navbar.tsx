@@ -17,7 +17,7 @@ import toast from "react-hot-toast"
 
 const routes = [
     { label:"Home",href:"/"},
-    { label:"Items",href:"/items"},
+    { label:"Events",href:"/events"},
     { label:"About",href:"/about"},
     // { label:"Add Item",href:"/items/add"},
     // { label:"Manage",href:"/items/manage"},

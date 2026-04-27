@@ -23,7 +23,7 @@ const features = [
   {
     icon: ShieldCheck,
     title: "Protected dashboard",
-    description: "Add and manage events only after Firebase authentication.",
+    description: "Add and manage events only after Google signin.",
   },
   {
     icon: Globe2,
@@ -40,20 +40,20 @@ const stats = [
 
 const testimonials = [
   {
-    name: "Nadia Rahman",
+    name: "Udayan Basak",
     role: "Product Manager",
     quote:
       "EventGuru makes event discovery feel simple, clean, and professional.",
   },
   {
-    name: "Tanvir Hasan",
+    name: "Mehedi Hasan",
     role: "Frontend Developer",
     quote:
       "The interface is polished and the protected pages work exactly as expected.",
   },
   {
-    name: "Arif Chowdhury",
-    role: "Founder",
+    name: "Apon Sazzid",
+    role: "Marketing Manager",
     quote:
       "A practical event management concept with strong UI consistency.",
   },
@@ -145,7 +145,7 @@ export default function HomePage() {
       <section className="px-4 py-20 sm:px-6 lg:px-8">
         <SectionHeader
           eyebrow="Features"
-          title="Everything you need to find and manage events"
+          title="Discover and manage events"
           description="EventGuru helps people discover quality events and helps organizers publish, manage, and promote their programs from one simple platform."
         />
 
@@ -173,7 +173,7 @@ export default function HomePage() {
         <SectionHeader
           eyebrow="Featured"
           title="Popular events this month"
-          description="Uniform responsive cards with image, title, short description, metadata, and details button."
+          description="Explore curated events with clear details, pricing, and quick access to full information."
         />
 
         <div className="mx-auto grid max-w-7xl gap-6 md:grid-cols-2 lg:grid-cols-3">

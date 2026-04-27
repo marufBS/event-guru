@@ -1,4 +1,4 @@
-import { SocialIcon } from "react-social-icons/component";
+import { SocialIcon } from "react-social-icons";
 import Link from "next/link";
 
 export default function Footer() {
@@ -39,26 +39,27 @@ export default function Footer() {
             >
               About
             </Link>
-            <Link
+            {/* <Link
               href="/items/add"
               className="text-slate-600 hover:text-indigo-600"
             >
               Add Item
-            </Link>
+            </Link> */}
           </div>
         </div>
 
         <div>
           <h4 className="font-bold text-slate-950">Social</h4>
           <div className="mt-4 flex gap-3">
-            {socials.map((Icon, index) => (
+            {socials.map((social, i) => (
               <span
-                key={index}
-                className="flex h-10 w-10 items-center justify-center rounded-full bg-slate-100 text-slate-600 hover:bg-indigo-600 hover:text-white"
+                key={i}
+                className="flex items-center justify-center rounded-full bg-slate-100 text-slate-600 hover:bg-indigo-600 hover:text-white"
               >
-                <SocialIcon url={Icon.link} network={Icon.icon} />
+                <SocialIcon url={social.link} network={social.icon}/>
               </span>
             ))}
+            
           </div>
         </div>
       </div>
